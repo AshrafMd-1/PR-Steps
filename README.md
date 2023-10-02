@@ -56,22 +56,23 @@ Before we begin, make sure you have:
 14. In the "Base" branch dropdown, choose the branch you want to merge your changes into.
 15. In the "Head repository" section, select your repository.
 16. In the "Compare" branch dropdown, choose the branch you created earlier (the one with your changes).
-17. Click the "Create Pull Request" button.
+17. Write a meaningful commit message, referencing the issue you've addressed, like "Fixed issue #234."
+18. Click the "Create Pull Request" button.
 
 ## Keeping Your Fork Up to Date
 If you want to keep your forked repository up to date with changes from the original repository:
 
-18. Add the original repository as a remote source (only once):
+19. Add the original repository as a remote source (only once):
     ```
     git remote add upstream <original_repository_url>
     ```
 
-19. Fetch the latest changes from the original repository:
+20. Fetch the latest changes from the original repository:
     ```
     git fetch upstream
     ```
 
-20. Update your local branch with the changes from the original repository's branch:
+21. Update your local branch with the changes from the original repository's branch:
     ```
     git rebase upstream/<branch_name>
     ```
