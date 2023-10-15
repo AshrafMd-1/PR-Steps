@@ -76,5 +76,10 @@ If you want to keep your forked repository up to date with changes from the orig
     ```
     git rebase upstream/<branch_name>
     ```
+    
+22. Combine the original repository's branch with your local branch:
+    ```
+    git merge upstream/<branch_name>
+    ```
 
 That's it! You've successfully created a pull request and learned how to keep your forked repository up to date. Your contributions can now be reviewed and merged by the maintainers of the project. Happy contributing!
